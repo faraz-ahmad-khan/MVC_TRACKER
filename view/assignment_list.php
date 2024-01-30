@@ -64,7 +64,7 @@
                 <?php endforeach; ?>
             </select>
             <label>Description:</label>
-            <input type="text" name="description" maxlength="120" placeholder="Description" required>
+            <textarea name="description" maxlength="" rows="10" cols="10" placeholder="Description" required></textarea>
         </div>
         <div class="add__addItem">
             <button class="add-button bold">Add</button>
